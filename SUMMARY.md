@@ -5,6 +5,7 @@
 ## Введение.
 
 * [Перед началом.](vvedenie./pered-nachalom./README.md)
+  * [Посвящается](vvedenie./pered-nachalom./posvyashaetsya.md)
   * [Важный Первый Шаг.](vvedenie./pered-nachalom./vazhnyi-pervyi-shag..md)
   * [Предисловие.](vvedenie./pered-nachalom./predislovie..md)
   * [Предисловие 2](vvedenie./pered-nachalom./predislovie-2.md)
@@ -145,3 +146,4 @@
 ***
 
 * [Финальный Гайд.](finalnyi-gaid..md)
+* [Слова Благодарности.](slova-blagodarnosti..md)
