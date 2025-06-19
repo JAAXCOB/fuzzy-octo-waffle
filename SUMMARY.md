@@ -87,7 +87,6 @@
   * [Лучше или Хуже.](schaste./psikhologiya./luchshe-ili-khuzhe..md)
   * [2 Вида Целей.](schaste./psikhologiya./2-vida-celei..md)
   * [Лучшее - враг хорошего.](schaste./psikhologiya./luchshee-vrag-khoroshego..md)
-  * [Принципы Успеха От Рэя Далио.](schaste./psikhologiya./principy-uspekha-ot-reya-dalio..md)
   * [Как Навсегда Побороть Неуверенность в Себе.](schaste./psikhologiya./kak-navsegda-poborot-neuverennost-v-sebe..md)
   * [Состояние силы.](schaste./psikhologiya./sostoyanie-sily..md)
 * [Личная Жизнь.](schaste./lichnaya-zhizn./README.md)
@@ -141,6 +140,7 @@
 * [Мышление Миллиардера.](bogatstvo./myshlenie-milliardera..md)
 * [Успех ждёт.](bogatstvo./uspekh-zhdyot..md)
 * [Правило "5 Почему?"](bogatstvo./pravilo-5-pochemu.md)
+* [Принципы Успеха От Рэя Далио.](bogatstvo./principy-uspekha-ot-reya-dalio..md)
 * [Инвестиции.](bogatstvo./investicii..md)
 
 ***
