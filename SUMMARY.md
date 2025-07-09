@@ -109,6 +109,7 @@
   * [Массаж.](schaste./proaktivnost./massazh..md)
   * [Квартальный Отчёт.](schaste./proaktivnost./kvartalnyi-otchyot..md)
   * [Дробление.](schaste./proaktivnost./droblenie..md)
+  * [Миллионы скрываются в Простоте.](schaste./proaktivnost./milliony-skryvayutsya-v-prostote..md)
 
 ***
 
