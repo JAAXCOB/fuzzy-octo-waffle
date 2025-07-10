@@ -96,6 +96,7 @@
   * [Лобные доли.](schaste./proaktivnost./lobnye-doli..md)
   * [Доска Садху.](schaste./proaktivnost./doska-sadkhu..md)
   * [Дисциплина.](schaste./proaktivnost./disciplina..md)
+  * [Секрет моей Дисциплины.](schaste./proaktivnost./sekret-moei-discipliny..md)
   * [Мобильный.](schaste./proaktivnost./mobilnyi..md)
   * [НЕТ.](schaste./proaktivnost./net..md)
   * [Нос.](schaste./proaktivnost./nos..md)
@@ -110,6 +111,7 @@
   * [Квартальный Отчёт.](schaste./proaktivnost./kvartalnyi-otchyot..md)
   * [Дробление.](schaste./proaktivnost./droblenie..md)
   * [Миллионы скрываются в Простоте.](schaste./proaktivnost./milliony-skryvayutsya-v-prostote..md)
+  * [Иллюзия занятости](schaste./proaktivnost./illyuziya-zanyatosti.md)
 
 ***
 
