@@ -62,6 +62,7 @@
 ## Счастье.
 
 * [Психология.](schaste./psikhologiya./README.md)
+  * [Ты вообще Кто?](schaste./psikhologiya./ty-voobshe-kto.md)
   * [Медитации.](schaste./psikhologiya./meditacii..md)
   * [Манифестация.](schaste./psikhologiya./manifestaciya..md)
   * [Самодисциплина.](schaste./psikhologiya./samodisciplina..md)
