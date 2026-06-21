@@ -293,6 +293,80 @@
       margin-top: 0.2rem;
     }
 
+    /* ── GALLERY ── */
+    .gallery {
+      padding: 3rem 1.5rem 4rem;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      margin-bottom: 2rem;
+    }
+
+    .gallery h2 span { color: var(--sky); }
+
+    .carousel {
+      position: relative;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.4s ease;
+    }
+
+    .carousel-track img {
+      min-width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      display: block;
+    }
+
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: #fff;
+      font-size: 1.5rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+
+    .carousel-btn:hover { background: rgba(91,191,255,0.6); }
+    .carousel-btn.prev { left: 12px; }
+    .carousel-btn.next { right: 12px; }
+
+    .carousel-dots {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 1rem;
+    }
+
+    .carousel-dots span {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #444;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .carousel-dots span.active { background: var(--sky); }
+
     /* ── PULSE ANIMATION ── */
     @keyframes pulse-ring {
       0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(91,191,255,0.4); }
@@ -389,6 +463,25 @@
     </div>
   </section>
 
+  <!-- GALLERY -->
+  <section class="gallery">
+    <h2>Как это <span>бывает</span></h2>
+    <div class="carousel">
+      <div class="carousel-track" id="carouselTrack">
+        <img src="run1.jpg" alt="Пробежка в парке" />
+        <img src="run2.jpg" alt="После пробежки" />
+        <img src="run3.jpg" alt="Бежим вместе" />
+      </div>
+      <button class="carousel-btn prev" onclick="moveCarousel(-1)">‹</button>
+      <button class="carousel-btn next" onclick="moveCarousel(1)">›</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots">
+      <span class="active" onclick="goToSlide(0)"></span>
+      <span onclick="goToSlide(1)"></span>
+      <span onclick="goToSlide(2)"></span>
+    </div>
+  </section>
+
   <!-- BOTTOM CTA -->
   <section style="text-align:center; padding: 1rem 1.5rem 5rem;">
     <div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; align-items:center;">
@@ -406,5 +499,26 @@
     <p>© 2025 SKY RUNNERS CLUB · Москва · <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank">Timepad</a></p>
   </footer>
 
+  <script>
+    let current = 0;
+    const total = 3;
+
+    function updateCarousel() {
+      document.getElementById('carouselTrack').style.transform = `translateX(-${current * 100}%)`;
+      document.querySelectorAll('#carouselDots span').forEach((d, i) => {
+        d.classList.toggle('active', i === current);
+      });
+    }
+
+    function moveCarousel(dir) {
+      current = (current + dir + total) % total;
+      updateCarousel();
+    }
+
+    function goToSlide(i) {
+      current = i;
+      updateCarousel();
+    }
+  </script>
 </body>
 </html>
