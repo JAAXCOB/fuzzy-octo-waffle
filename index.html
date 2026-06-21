@@ -148,6 +148,26 @@
       background: #7DCFFF;
     }
 
+    .btn-secondary {
+      display: inline-block;
+      background: transparent;
+      color: var(--text);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 999px;
+      border: 1px solid #444;
+      transition: border-color 0.18s, color 0.18s;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--sky);
+      color: var(--sky);
+    }
+
     /* ── INFO STRIP ── */
     .info-strip {
       position: relative;
@@ -306,7 +326,8 @@
       <h1 class="hero-title">SKY<br/><span>RUNNERS</span><br/>CLUB</h1>
       <p class="hero-sub">Беговой клуб для начинающих в Москве.<br/>Бежим вместе — легко, без давления и пафоса.</p>
       <div class="hero-cta">
-        <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank" rel="noopener" class="btn-primary">Записаться на пробежку →</a>
+        <a href="https://t.me/skyrunnersclub_bot" target="_blank" rel="noopener" class="btn-primary">Записаться в Telegram →</a>
+        <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank" rel="noopener" class="btn-secondary">или через Timepad</a>
       </div>
     </div>
   </section>
@@ -370,9 +391,14 @@
 
   <!-- BOTTOM CTA -->
   <section style="text-align:center; padding: 1rem 1.5rem 5rem;">
-    <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank" rel="noopener" class="btn-primary" style="font-size:1.1rem; padding: 1.1rem 3rem;">
-      Записаться на пробежку →
-    </a>
+    <div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; align-items:center;">
+      <a href="https://t.me/skyrunnersclub_bot" target="_blank" rel="noopener" class="btn-primary" style="font-size:1.1rem; padding: 1.1rem 3rem;">
+        Записаться в Telegram →
+      </a>
+      <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank" rel="noopener" class="btn-secondary">
+        или через Timepad
+      </a>
+    </div>
     <p style="margin-top:1rem; color: var(--muted); font-size:0.85rem;">Ближайшая пробежка — в эту среду в 19:30</p>
   </section>
 
