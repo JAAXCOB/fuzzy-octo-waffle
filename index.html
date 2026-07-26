@@ -3,10 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SKY RUNNERS CLUB — Беговой клуб Москва</title>
+  <title>Sky Runners Club — беговой клуб в Раменках, Москва | Бесплатные пробежки по средам</title>
+  <meta name="description" content="Бесплатные совместные пробежки в Раменках каждую среду в 19:30. Старт у кофейни AMO, Мичуринский проспект 56 — маршрут по Парку 50-летия Октября. Без опыта и подготовки." />
+  <link rel="canonical" href="https://skyrunnersclub.ru/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0D0D0D" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="description" content="Беговой клуб в Москве. Каждую среду в 19:30. Старт — кофейня Ама, Мичуринский проспект 56. Бесплатно." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Sky Runners Club" />
+  <meta property="og:title" content="Sky Runners Club — беговой клуб в Раменках, Москва" />
+  <meta property="og:description" content="Бесплатные совместные пробежки в Раменках каждую среду в 19:30. Старт у кофейни AMO, Мичуринский проспект 56 — маршрут по Парку 50-летия Октября." />
+  <meta property="og:url" content="https://skyrunnersclub.ru/" />
+  <meta property="og:image" content="https://skyrunnersclub.ru/hero.jpg" />
+  <meta property="og:locale" content="ru_RU" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sky Runners Club — беговой клуб в Раменках, Москва" />
+  <meta name="twitter:description" content="Бесплатные совместные пробежки в Раменках каждую среду в 19:30. Старт у кофейни AMO, Мичуринский проспект 56." />
+  <meta name="twitter:image" content="https://skyrunnersclub.ru/hero.jpg" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SportsOrganization",
+        "@id": "https://skyrunnersclub.ru/#organization",
+        "name": "Sky Runners Club",
+        "url": "https://skyrunnersclub.ru/",
+        "image": "https://skyrunnersclub.ru/hero.jpg",
+        "sport": "Running",
+        "location": {
+          "@type": "Place",
+          "name": "Кофейня AMO",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Мичуринский проспект, 56",
+            "addressLocality": "Москва",
+            "addressRegion": "Раменки",
+            "addressCountry": "RU"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 55.6941,
+            "longitude": 37.5001
+          }
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://skyrunnersclub.ru/#website",
+        "name": "Sky Runners Club",
+        "url": "https://skyrunnersclub.ru/",
+        "inLanguage": "ru-RU"
+      }
+    ]
+  }
+  </script>
+
   <!-- Yandex.Metrika counter -->
+  <link rel="preconnect" href="https://mc.yandex.ru" />
   <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
       m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -18,7 +78,10 @@
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/110017900" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter -->
+
+  <link rel="preload" as="image" href="hero.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -33,6 +96,16 @@
     }
 
     html { scroll-behavior: smooth; }
+
+    .sr-only {
+      position: absolute;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
+    }
 
     body {
       font-family: 'Inter', sans-serif;
@@ -288,6 +361,7 @@
     }
 
     .cafe-info .cafe-addr {
+      font-style: normal;
       font-size: 0.85rem;
       color: var(--muted);
       margin-top: 0.2rem;
@@ -393,12 +467,12 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-bg"><img src="hero.jpg" alt="" /></div>
+    <div class="hero-bg"><img src="hero.jpg" alt="Участники Sky Runners Club бегут по вечерним Раменкам, Москва" fetchpriority="high" decoding="async" width="1968" height="1320" /></div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <div class="badge-free">✦ Бесплатно ✦</div>
       <h1 class="hero-title">SKY<br/><span>RUNNERS</span><br/>CLUB</h1>
-      <p class="hero-sub">Беговой клуб для начинающих в Москве.<br/>Бежим вместе — легко, без давления и пафоса.</p>
+      <p class="hero-sub">Беговой клуб для начинающих в Раменках, Москва.<br/>Бежим вместе — легко, без давления и пафоса.</p>
       <div class="hero-cta">
         <a href="https://t.me/skyrunnersclub_bot?start=go" target="_blank" rel="noopener" class="btn-primary">Записаться в Telegram →</a>
         <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank" rel="noopener" class="btn-secondary">или через Timepad</a>
@@ -406,15 +480,18 @@
     </div>
   </section>
 
+  <main>
+
   <!-- INFO STRIP -->
   <section class="info-strip">
+    <h2 class="sr-only">Детали пробежки</h2>
     <div class="info-grid">
 
       <div class="info-item">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
         </svg>
-        <div class="label">Когда</div>
+        <h3 class="label">Когда</h3>
         <div class="value">Каждую среду</div>
       </div>
 
@@ -422,7 +499,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
         </svg>
-        <div class="label">Время старта</div>
+        <h3 class="label">Время старта</h3>
         <div class="value">19:30</div>
       </div>
 
@@ -430,7 +507,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
         </svg>
-        <div class="label">Место старта</div>
+        <h3 class="label">Место старта</h3>
         <div class="value">Кофейня AMO, Мичуринский пр-т, 56</div>
       </div>
 
@@ -438,7 +515,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
         </svg>
-        <div class="label">Стоимость</div>
+        <h3 class="label">Стоимость</h3>
         <div class="value">Бесплатно</div>
       </div>
 
@@ -450,15 +527,15 @@
     <div class="about-text">
       <h2>Для тех, кто<br/><span>только начинает</span></h2>
       <p>Не нужно быть спортсменом. Не нужна специальная подготовка. Просто приходи в кроссовках — и побежим вместе в комфортном темпе.</p>
-      <p>Каждую среду мы собираемся у кофейни AMO, разминаемся и отправляемся на пробежку по вечерней Москве. После — можно выпить кофе и познакомиться с командой.</p>
+      <p>Каждую среду мы собираемся у кофейни AMO, разминаемся и отправляемся на пробежку по Парку 50-летия Октября в Раменках. После — можно выпить кофе и познакомиться с командой.</p>
       <p>Места ограничены — записывайся заранее.</p>
     </div>
 
     <div class="cafe-card">
-      <img src="cafe.jpg" alt="Кофейня AMO" class="cafe-img" />
+      <img src="cafe.jpg" alt="Кофейня AMO на Мичуринском проспекте — место старта пробежек Sky Runners Club" class="cafe-img" loading="lazy" width="960" height="1280" />
       <div class="cafe-info">
         <div class="cafe-name">Кофейня AMO</div>
-        <div class="cafe-addr">Мичуринский проспект, 56 · Москва</div>
+        <address class="cafe-addr">Мичуринский проспект, 56 · Москва</address>
       </div>
     </div>
   </section>
@@ -469,9 +546,9 @@
     <p style="color:#999; font-size:0.95rem; margin-top:-1rem; margin-bottom:2rem;">Мы бегаем, смеёмся и дышим свежим воздухом — присоединяйся, будет здорово.</p>
     <div class="carousel">
       <div class="carousel-track" id="carouselTrack">
-        <img src="run11.jpg" alt="Пробежка в парке" />
-        <img src="run22.jpg" alt="После пробежки" />
-        <img src="run33.jpg" alt="Бежим вместе" />
+        <img src="run11.jpg" alt="Совместная пробежка Sky Runners Club в парке 50-летия Октября, Раменки" loading="lazy" width="1857" height="1738" />
+        <img src="run22.jpg" alt="Участники Sky Runners Club после пробежки в Раменках" loading="lazy" width="1973" height="2048" />
+        <img src="run33.jpg" alt="Группа Sky Runners Club бежит по маршруту в Раменках" loading="lazy" width="1350" height="1298" />
       </div>
       <button class="carousel-btn prev" onclick="moveCarousel(-1)">‹</button>
       <button class="carousel-btn next" onclick="moveCarousel(1)">›</button>
@@ -495,6 +572,8 @@
     </div>
     <p style="margin-top:1rem; color: var(--muted); font-size:0.85rem;">Ближайшая пробежка — в эту среду в 19:30</p>
   </section>
+
+  </main>
 
   <footer>
     <p>© 2025 SKY RUNNERS CLUB · Москва · <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank">Timepad</a></p>
