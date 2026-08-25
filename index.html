@@ -283,6 +283,18 @@
       color: var(--text);
     }
 
+    .distance-more {
+      display: inline-block;
+      margin-top: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--sky);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--sky-dark);
+      transition: opacity 0.18s;
+    }
+
+    .distance-more:hover { opacity: 0.75; }
+
     /* ── ABOUT ── */
     .about {
       max-width: 900px;
@@ -521,6 +533,15 @@
         </svg>
         <h3 class="label">Стоимость</h3>
         <div class="value">Бесплатно</div>
+      </div>
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-6"/>
+        </svg>
+        <h3 class="label">Дистанция</h3>
+        <div class="value">5 км</div>
+        <a href="https://t.me/skyrunnersclub_bot?start=long" target="_blank" rel="noopener" class="distance-more">Хочу бежать больше →</a>
       </div>
 
     </div>
