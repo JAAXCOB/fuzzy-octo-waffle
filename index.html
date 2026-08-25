@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Бег в Раменках — Sky Runners Club | Беговой клуб, пробежки каждую среду, Москва</title>
+  <meta name="description" content="Беговой клуб в Раменках, Москва: бесплатные групповые пробежки каждую среду в 19:30. Старт у кофейни AMO на Мичуринском проспекте, 56, маршрут — Парк 50-летия Октября. Без опыта, без подготовки, любой темп. Присоединяйся к беговому сообществу Раменок." />
+  <link rel="canonical" href="https://skyrunnersclub.ru/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0D0D0D" />
+  <meta name="google-site-verification" content="mDDcG97jULdI5yQ875YOV0Dwwt6qJvB6F-Yx8QwThnk" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Sky Runners Club" />
+  <meta property="og:title" content="Бег в Раменках — Sky Runners Club, беговой клуб Москва" />
+  <meta property="og:description" content="Бесплатные групповые пробежки в Раменках каждую среду в 19:30. Старт у кофейни AMO, Мичуринский проспект 56, маршрут по Парку 50-летия Октября. Без опыта и подготовки." />
+  <meta property="og:url" content="https://skyrunnersclub.ru/" />
+  <meta property="og:image" content="https://skyrunnersclub.ru/hero.jpg" />
+  <meta property="og:locale" content="ru_RU" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Бег в Раменках — Sky Runners Club, беговой клуб Москва" />
+  <meta name="twitter:description" content="Бесплатные групповые пробежки в Раменках каждую среду в 19:30. Старт у кофейни AMO, Мичуринский проспект 56." />
+  <meta name="twitter:image" content="https://skyrunnersclub.ru/hero.jpg" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SportsOrganization",
+        "@id": "https://skyrunnersclub.ru/#organization",
+        "name": "Sky Runners Club",
+        "url": "https://skyrunnersclub.ru/",
+        "image": "https://skyrunnersclub.ru/hero.jpg",
+        "sport": "Running",
+        "location": {
+          "@type": "Place",
+          "name": "Кофейня AMO",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Мичуринский проспект, 56",
+            "addressLocality": "Москва",
+            "addressRegion": "Раменки",
+            "addressCountry": "RU"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 55.6941,
+            "longitude": 37.5001
+          }
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://skyrunnersclub.ru/#website",
+        "name": "Sky Runners Club",
+        "url": "https://skyrunnersclub.ru/",
+        "inLanguage": "ru-RU"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Yandex.Metrika counter -->
+  <link rel="preconnect" href="https://mc.yandex.ru" />
+  <script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+      m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();
+      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=110017900', 'ym');
+    ym(110017900, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/110017900" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <link rel="preload" as="image" href="hero.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --sky: #5BBFFF;
+      --sky-dark: #1A8FD1;
+      --dark: #0D0D0D;
+      --dark2: #161616;
+      --text: #F0F0F0;
+      --muted: #999;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    .sr-only {
+      position: absolute;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--dark);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem 1.5rem 4rem;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .hero-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: brightness(0.38);
+      display: block;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, transparent 50%, var(--dark) 100%);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 780px;
+    }
+
+    .badge-free {
+      display: inline-block;
+      background: var(--sky);
+      color: #000;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.35rem 1rem;
+      border-radius: 999px;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: clamp(2.8rem, 10vw, 6rem);
+      line-height: 1;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+    }
+
+    .hero-title span {
+      color: var(--sky);
+    }
+
+    .hero-sub {
+      margin-top: 1.2rem;
+      font-size: clamp(1rem, 3vw, 1.3rem);
+      color: #ccc;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    .hero-cta {
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: var(--sky);
+      color: #000;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      padding: 1rem 2.4rem;
+      border-radius: 999px;
+      transition: transform 0.18s, box-shadow 0.18s, background 0.18s;
+      box-shadow: 0 0 30px rgba(91,191,255,0.35);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 0 48px rgba(91,191,255,0.55);
+      background: #7DCFFF;
+    }
+
+    .btn-secondary {
+      display: inline-block;
+      background: transparent;
+      color: var(--text);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 999px;
+      border: 1px solid #444;
+      transition: border-color 0.18s, color 0.18s;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--sky);
+      color: var(--sky);
+    }
+
+    /* ── INFO STRIP ── */
+    .info-strip {
+      position: relative;
+      z-index: 2;
+      margin-top: -1px;
+      background: var(--dark2);
+      border-top: 1px solid #222;
+      padding: 2.5rem 1.5rem;
+    }
+
+    .info-grid {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem 3rem;
+      text-align: center;
+    }
+
+    .info-item {
+      flex: 1 1 180px;
+      max-width: 220px;
+    }
+
+    .info-item svg {
+      width: 28px; height: 28px;
+      color: var(--sky);
+      margin-bottom: 0.6rem;
+    }
+
+    .info-item .label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+
+    .info-item .value {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .distance-more {
+      display: inline-block;
+      margin-top: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--sky);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--sky-dark);
+      transition: opacity 0.18s;
+    }
+
+    .distance-more:hover { opacity: 0.75; }
+
+    /* ── ABOUT ── */
+    .about {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    @media (max-width: 640px) {
+      .about { grid-template-columns: 1fr; }
+    }
+
+    .about-text h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .about-text h2 span { color: var(--sky); }
+
+    .about-text p {
+      color: #bbb;
+      line-height: 1.7;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-text p:last-child { margin-bottom: 0; }
+
+    .cafe-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .cafe-img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      display: block;
+      background: #222;
+    }
+
+    .cafe-img-placeholder {
+      width: 100%;
+      aspect-ratio: 4/3;
+      background: linear-gradient(135deg, #1a2a3a, #0d1a2a);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      gap: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .cafe-img-placeholder svg {
+      width: 40px; height: 40px;
+      opacity: 0.4;
+    }
+
+    .cafe-info {
+      padding: 1rem 1.2rem;
+    }
+
+    .cafe-info .cafe-name {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--sky);
+    }
+
+    .cafe-info .cafe-addr {
+      font-style: normal;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.2rem;
+    }
+
+    /* ── GALLERY ── */
+    .gallery {
+      padding: 3rem 1.5rem 4rem;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      margin-bottom: 2rem;
+    }
+
+    .gallery h2 span { color: var(--sky); }
+
+    .carousel {
+      position: relative;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.4s ease;
+    }
+
+    .carousel-track img {
+      width: 100%;
+      min-width: 100%;
+      height: auto;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      display: block;
+    }
+
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: #fff;
+      font-size: 1.5rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+
+    .carousel-btn:hover { background: rgba(91,191,255,0.6); }
+    .carousel-btn.prev { left: 12px; }
+    .carousel-btn.next { right: 12px; }
+
+    .carousel-dots {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 1rem;
+    }
+
+    .carousel-dots span {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #444;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .carousel-dots span.active { background: var(--sky); }
+
+    /* ── PULSE ANIMATION ── */
+    @keyframes pulse-ring {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(91,191,255,0.4); }
+      70% { transform: scale(1); box-shadow: 0 0 0 14px rgba(91,191,255,0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(91,191,255,0); }
+    }
+
+    .btn-primary { animation: pulse-ring 2.4s infinite; }
+    .btn-primary:hover { animation: none; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid #1e1e1e;
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    footer a { color: var(--sky); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"><img src="hero.jpg" alt="Участники Sky Runners Club бегут по вечерним Раменкам, Москва" fetchpriority="high" decoding="async" width="1968" height="1320" /></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="badge-free">✦ Бесплатно ✦</div>
+      <h1 class="hero-title">SKY<br/><span>RUNNERS</span><br/>CLUB</h1>
+      <p class="hero-sub">Беговой клуб для начинающих в Раменках, Москва.<br/>Бежим вместе — легко, без давления и пафоса.</p>
+      <div class="hero-cta">
+        <a href="https://t.me/skyrunnersclub_bot?start=go" target="_blank" rel="noopener" class="btn-primary">Записаться в Telegram →</a>
+        <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank" rel="noopener" class="btn-secondary">или через Timepad</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+  <!-- INFO STRIP -->
+  <section class="info-strip">
+    <h2 class="sr-only">Детали пробежки</h2>
+    <div class="info-grid">
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+        <h3 class="label">Когда</h3>
+        <div class="value">Каждую среду</div>
+      </div>
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+        </svg>
+        <h3 class="label">Время старта</h3>
+        <div class="value">19:30</div>
+      </div>
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+        </svg>
+        <h3 class="label">Место старта</h3>
+        <div class="value">Кофейня AMO, Мичуринский пр-т, 56</div>
+      </div>
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+        </svg>
+        <h3 class="label">Стоимость</h3>
+        <div class="value">Бесплатно</div>
+      </div>
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-6"/>
+        </svg>
+        <h3 class="label">Дистанция</h3>
+        <div class="value">5 км</div>
+        <a href="https://t.me/skyrunnersclub_bot?start=long" target="_blank" rel="noopener" class="distance-more">Хочу бежать больше 5 км →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="about-text">
+      <h2>Для тех, кто<br/><span>только начинает</span></h2>
+      <p>Не нужно быть спортсменом. Не нужна специальная подготовка. Просто приходи в кроссовках — и побежим вместе в комфортном темпе.</p>
+      <p>Каждую среду мы собираемся у кофейни AMO, разминаемся и отправляемся на пробежку по Парку 50-летия Октября в Раменках. После — можно выпить кофе и познакомиться с командой.</p>
+      <p>Места ограничены — записывайся заранее.</p>
+    </div>
+
+    <div class="cafe-card">
+      <img src="cafe.jpg" alt="Кофейня AMO на Мичуринском проспекте — место старта пробежек Sky Runners Club" class="cafe-img" loading="lazy" width="960" height="1280" />
+      <div class="cafe-info">
+        <div class="cafe-name">Кофейня AMO</div>
+        <address class="cafe-addr">Мичуринский проспект, 56 · Москва</address>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <h2>Как это <span>бывает</span></h2>
+    <p style="color:#999; font-size:0.95rem; margin-top:-1rem; margin-bottom:2rem;">Мы бегаем, смеёмся и дышим свежим воздухом — присоединяйся, будет здорово.</p>
+    <div class="carousel">
+      <div class="carousel-track" id="carouselTrack">
+        <img src="run11.jpg" alt="Совместная пробежка Sky Runners Club в парке 50-летия Октября, Раменки" loading="lazy" width="1857" height="1738" />
+        <img src="run22.jpg" alt="Участники Sky Runners Club после пробежки в Раменках" loading="lazy" width="1973" height="2048" />
+        <img src="run33.jpg" alt="Группа Sky Runners Club бежит по маршруту в Раменках" loading="lazy" width="1350" height="1298" />
+      </div>
+      <button class="carousel-btn prev" onclick="moveCarousel(-1)">‹</button>
+      <button class="carousel-btn next" onclick="moveCarousel(1)">›</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots">
+      <span class="active" onclick="goToSlide(0)"></span>
+      <span onclick="goToSlide(1)"></span>
+      <span onclick="goToSlide(2)"></span>
+    </div>
+  </section>
+
+  <!-- BOTTOM CTA -->
+  <section style="text-align:center; padding: 1rem 1.5rem 5rem;">
+    <div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; align-items:center;">
+      <a href="https://t.me/skyrunnersclub_bot?start=go" target="_blank" rel="noopener" class="btn-primary" style="font-size:1.1rem; padding: 1.1rem 3rem;">
+        Записаться в Telegram →
+      </a>
+      <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank" rel="noopener" class="btn-secondary">
+        или через Timepad
+      </a>
+    </div>
+    <p style="margin-top:1rem; color: var(--muted); font-size:0.85rem;">Ближайшая пробежка — в эту среду в 19:30</p>
+  </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 SKY RUNNERS CLUB · Москва · <a href="https://sky-running-club.timepad.ru/event/4039559/" target="_blank">Timepad</a></p>
+  </footer>
+
+  <script>
+    let current = 0;
+    const total = 3;
+
+    function updateCarousel() {
+      document.getElementById('carouselTrack').style.transform = `translateX(-${current * 100}%)`;
+      document.querySelectorAll('#carouselDots span').forEach((d, i) => {
+        d.classList.toggle('active', i === current);
+      });
+    }
+
+    function moveCarousel(dir) {
+      current = (current + dir + total) % total;
+      updateCarousel();
+    }
+
+    function goToSlide(i) {
+      current = i;
+      updateCarousel();
+    }
+  </script>
+</body>
+</html>
